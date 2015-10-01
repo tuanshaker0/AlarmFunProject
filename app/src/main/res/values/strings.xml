@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">AlarmFunProject</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_cost">CostActivity</string>
+    <string name="title_activity_ticket">TicketActivity</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="text_already_account">ALREADY ACCOUNT</string>
+    <string name="text_forget_password">Forget your password?</string>
+    <string name="hint_user_name">User name</string>
+    <string name="hint_pass">Password</string>
+    <string name="hint_re_pass">Re input Password</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">PhoneNumber</string>
+    <string name="text_btn_login">Login</string>
+    <string name="text_btn_register">Register</string>
+    <string name="text_create_account">Dont have an account? Sign up</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="text_register_now">REGISTER NOW</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_input_cost_redmine">Input cost of redmine</string>
+    <string name="text_input_cost_googledoc">Input cost of google doc</string>
+    <string name="text_change_ticket_redmine">Change status of redmine</string>
+    <string name="text_choose_ringtone">Choose ringtone</string>
+    <string name="text_choose_notification_light">Choose notification light</string>
+</resources>

@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.gdo.alarmfunproject.setting.SettingActivity">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolBarSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_green"
+        android:elevation="4dp" />
+
+    <LinearLayout
+        android:id="@+id/layoutInputCostRedmine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolBarSetting"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/text_input_cost_redmine"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonRingtoneCostRedmine"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableLeft="@drawable/ic_ring_volume_blue_500_18dp"
+            android:drawablePadding="10dp"
+            android:gravity="left|center_vertical"
+            android:padding="5dp"
+            android:text="@string/text_choose_ringtone" />
+
+        <Button
+            android:id="@+id/buttonColorNotificationCostRedmine"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableLeft="@drawable/ic_color_lens_blue_500_18dp"
+            android:drawablePadding="10dp"
+            android:gravity="left|center_vertical"
+            android:padding="5dp"
+            android:text="@string/text_choose_notification_light" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutInputCostGoogle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutInputCostRedmine"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/text_input_cost_googledoc"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonRingtoneCostGoogle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableLeft="@drawable/ic_ring_volume_blue_500_18dp"
+            android:drawablePadding="10dp"
+            android:gravity="left|center_vertical"
+            android:padding="5dp"
+            android:text="@string/text_choose_ringtone" />
+
+        <Button
+            android:id="@+id/buttonColorNotificationCostGoogle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableLeft="@drawable/ic_color_lens_blue_500_18dp"
+            android:drawablePadding="10dp"
+            android:gravity="left|center_vertical"
+            android:padding="5dp"
+            android:text="@string/text_choose_notification_light" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutChangeTicket"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutInputCostGoogle"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/text_change_ticket_redmine"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonRingtoneChangeTicket"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableLeft="@drawable/ic_ring_volume_blue_500_18dp"
+            android:drawablePadding="10dp"
+            android:gravity="left|center_vertical"
+            android:padding="5dp"
+            android:text="@string/text_choose_ringtone" />
+
+        <Button
+            android:id="@+id/buttonColorNotificationChangeTicket"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableLeft="@drawable/ic_color_lens_blue_500_18dp"
+            android:drawablePadding="10dp"
+            android:gravity="left|center_vertical"
+            android:padding="5dp"
+            android:text="@string/text_choose_notification_light" />
+    </LinearLayout>
+
+
+</RelativeLayout>
