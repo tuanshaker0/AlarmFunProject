@@ -69,7 +69,7 @@ public class HomeActivity extends Activity {
     View.OnClickListener mOnClickLayoutSetting = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            startActivity(new Intent(HomeActivity.this, SettingActivity.class));
+//            startActivity(new Intent(HomeActivity.this, SettingActivity.class));
         }
     };
 }
